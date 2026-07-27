@@ -15,9 +15,25 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://fundacionkapullitos.org"),
   title: "Fundación Kapullitos - Construyendo un futuro más sano",
   description: "Brindamos atención médica integral y contención emocional especializada a niños y niñas en situación de vulnerabilidad.",
   keywords: ["fundación", "kapullitos", "salud infantil", "psicología infantil", "talleres de oficios", "voluntariado"],
+  authors: [{ name: "Fundación Kapullitos" }],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Fundación Kapullitos",
     description: "Atención médica y emocional especializada a niños y niñas en situación de vulnerabilidad.",
