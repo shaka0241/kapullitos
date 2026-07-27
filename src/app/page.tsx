@@ -11,7 +11,18 @@ export default function Home() {
     "@type": "NGO",
     "name": "Fundación Kapullitos",
     "url": "https://fundacionkapullitos.org",
+    "logo": "https://fundacionkapullitos.org/logos/Color/logo_principal_color@4x.png",
     "description": "Brindamos atención médica integral y contención emocional especializada a niños y niñas en situación de vulnerabilidad.",
+    "sameAs": [
+      "https://www.instagram.com/fundacionkapullitos",
+      "https://www.facebook.com/fundacionkapullitos"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Atención al donante / Voluntariado",
+      "email": "contacto@fundacionkapullitos.org",
+      "availableLanguage": "Spanish"
+    }
   };
 
   return (
